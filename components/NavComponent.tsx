@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function NavComponent() {
   return (
-    <nav className="w-full h-[71px] flex justify-between items-center px-9">
+    <nav className=" h-[71px] w-[327px] md:w-[689px] xl:w-[1110px] mx-auto flex justify-between items-center ">
       <Image
         src={"/shared/logo.svg"}
         height={40}
