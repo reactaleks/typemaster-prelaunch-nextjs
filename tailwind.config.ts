@@ -26,8 +26,12 @@ const config: Config = {
         headings: '28px',
         body: '26px',
       },
-
-
+      fontSize: {
+        headingxl: '56px',
+        headingm: '32px',
+        headings: '24px',
+        body: '16px'
+      },
       gridTemplateColumns: {
         '24': 'repeat(24, 1fr)'
       },
