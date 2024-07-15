@@ -16,7 +16,7 @@ const featuresDetails = [
   },
   {
     logo: "/shared/icon-battery.svg",
-    title: `HIGH CAPACITY\nBATTERY`,
+    title: `HIGH CAPACITY BATTERY`,
     text: "Equipped with a long-lasting built-in battery, you’ll never have to spend a dime on replaceable ones. Enjoy 40 hours of usage time between charges.",
     iconHeight: 20,
     iconWidth: 31.99

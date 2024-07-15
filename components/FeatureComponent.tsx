@@ -26,7 +26,7 @@ export default function FeatureComponent({
         />
       </div>
 
-      <h3 className="md:w-[281px] md:h-[56px] xl:px-4 font-barlow text-headings leading-headings font-bold text-center md:text-left">
+      <h3 className="md:w-[180px] md:h-[56px] w-[200px] xl:w-[210px] xl:px-4 font-barlow text-dark-blue text-headings leading-headings font-bold text-center md:text-left">
         {title}
       </h3>
       <p className="md:w-[281px] md:h-[104px] xl:px-4 font-barlowm text-body leading-body text-light-blue text-center md:text-left" >
