@@ -2,11 +2,12 @@ import Image from "next/image";
 export default function ShowCaseComponent() {
   return (
     <div className="flex flex-col xl:grid xl:grid-cols-24 relative  xl:w-[1440px] mx-auto">
-      <div className="grid grid-cols-24 relative xl:w-[730px] xl:col-span-12 xl:col-start-4">
+      <div className="grid grid-cols-24 relative lg:gap-4 xl:w-[730px] xl:col-span-12 xl:col-start-4 overflow-hidden">
 
         <div className=" col-span-7 col-start-1
           sm:col-start-4  
           md:col-start-2 md:col-span-8 
+          lg:col-start-5 lg:col-span-6
           xl:col-start-1 xl:col-span-9 
           w-[129px] h-[193px] md:rounded-2xl md:w-[255px] md:h-[320px] xl:w-[245px] xl:h-[480px] relative">
           <div className="absolute rounded-r-2xl  opacity-75 bg-[#C95614] w-[129px] h-[193px] md:rounded-2xl md:w-[255px] md:h-[320px] xl:w-[245px] xl:h-[480px]"></div>
@@ -30,6 +31,7 @@ export default function ShowCaseComponent() {
           style={{objectFit: "cover"}}
           className="rounded-2xl w-[220px] h-[193px] md:w-[450px] md:h-[320px] xl:w-[455px] xl:h-[480px] col-span-14 col-start-9 
           sm:col-start-12  
+          lg:col-start-11 lg:col-span-10
           md:col-span-13 md:col-start-11 
           xl:col-span-16 xl:col-start-10" 
         />
@@ -45,7 +47,7 @@ export default function ShowCaseComponent() {
           wireless connectivity.
         </p>
       </div>
-      <div className="hidden xl:block xl:absolute w-[255px] h-[240px] -left-[90px] bottom-0">
+      <div className="hidden xl:block xl:absolute w-[255px] h-[240px] -left-[300px] bottom-0">
         <Image src={'/shared/pattern-square.svg'} width={255} height={240} alt=""/>
       </div>
     </div>
