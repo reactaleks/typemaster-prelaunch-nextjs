@@ -32,7 +32,7 @@ const featuresDetails = [
 
 export default function FeatureSectionComponent() {
   return (
-    <div className="md:flex md:flex-wrap md:justify-center xl:w-[1110px] xl:mx-auto">
+    <div className="md:flex md:flex-wrap md:justify-center lg:w-[800px] xl:w-[1110px] lg:mx-auto">
         {featuresDetails.map((feature, index) => {
             return <FeatureComponent image={feature.logo} title={feature.title} text={feature.text} iconHeight={feature.iconHeight} iconWidth={feature.iconWidth} key={index}/>
         })}
