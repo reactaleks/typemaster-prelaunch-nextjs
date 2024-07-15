@@ -12,7 +12,7 @@ export default function IconComponent({
   iconWidth,
 }: PropTypes) {
   return (
-    <div className="bg-orange w-[65px] h-[65px] p-2 rounded-2xl content-center mx-auto">
+    <div className="bg-orange w-[65px] h-[65px] rounded-2xl content-center ">
       <Image
         src={image}
         height={iconHeight}

@@ -17,8 +17,8 @@ export default function FeatureComponent({
   iconWidth,
 }: PropTypes) {
   return (
-    <div>
-      <div className="my-16">
+    <div className="h-[297px] w-[327px] md:w-[281px] md:h-[289px]  xl:w-[255px] xl:h-[323px] mx-auto flex flex-col justify-between items-center md:items-start my-16 ">
+      <div className="xl:px-4">
         <IconComponent
           image={image}
           iconHeight={iconHeight}
@@ -26,10 +26,10 @@ export default function FeatureComponent({
         />
       </div>
 
-      <h3 className="font-barlow text-headings leading-headings font-bold w-[327px] h-[56px] mx-auto my-4 text-center line-clamp-6">
+      <h3 className="md:w-[180px] md:h-[56px] w-[200px] xl:w-[210px] xl:px-4 font-barlow text-dark-blue text-headings leading-headings font-bold text-center md:text-left">
         {title}
       </h3>
-      <p className="font-barlowm text-body leading-body text-light-blue text-center w-[327px] h-[104px] mx-auto">
+      <p className="md:w-[281px] md:h-[104px] xl:px-4 font-barlowm text-body leading-body text-light-blue text-center md:text-left" >
         {text}
       </p>
     </div>

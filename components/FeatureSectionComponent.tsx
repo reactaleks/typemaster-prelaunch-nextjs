@@ -16,7 +16,7 @@ const featuresDetails = [
   },
   {
     logo: "/shared/icon-battery.svg",
-    title: `HIGH CAPACITY\nBATTERY`,
+    title: `HIGH CAPACITY BATTERY`,
     text: "Equipped with a long-lasting built-in battery, you’ll never have to spend a dime on replaceable ones. Enjoy 40 hours of usage time between charges.",
     iconHeight: 20,
     iconWidth: 31.99
@@ -32,10 +32,10 @@ const featuresDetails = [
 
 export default function FeatureSectionComponent() {
   return (
-    <>
+    <div className="md:flex md:flex-wrap md:justify-center xl:w-[1110px] xl:mx-auto">
         {featuresDetails.map((feature, index) => {
             return <FeatureComponent image={feature.logo} title={feature.title} text={feature.text} iconHeight={feature.iconHeight} iconWidth={feature.iconWidth} key={index}/>
         })}
-    </>
+    </div>
   )
 }

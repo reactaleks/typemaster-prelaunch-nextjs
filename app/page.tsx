@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="w-full flex flex-col justify-between">
       <NavComponent/>
-      <main className="">
+      <main className="w-full md:w-full  mx-auto overflow-hidden ">
         <HeroComponent/>
         <ShowCaseComponent/>
         <FeatureSectionComponent/>
@@ -17,3 +17,6 @@ export default function Home() {
     </div>
   );
 }
+
+
+// xl:w-[1440px]
